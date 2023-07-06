@@ -6,19 +6,19 @@ class CarTransformer(Transformer):
         return items[0]
 
     def toyota(self, items: List[Dict[str, str]]) -> Dict[str, Union[str, List[Dict[str, str]]]]:
-        return {"brand": "Toyota", "details": items}
+        return {"data": items}
 
-    def toyota_merk(self, items: List[str]) -> Dict[str, str]:
-        return {"merk": items[0].value}
+    def toyota_brand(self, items: List[str]) -> Dict[str, str]:
+        return {"brand": items[0].value}
 
     def toyota_model(self, items: List[str]) -> Dict[str, str]:
         return {"model": items[0].value}
 
     def honda(self, items: List[Dict[str, str]]) -> Dict[str, Union[str, List[Dict[str, str]]]]:
-        return {"brand": "Honda", "details": items}
+        return {"data": items}
 
-    def honda_merk(self, items: List[str]) -> Dict[str, str]:
-        return {"merk": items[0].value}
+    def honda_brand(self, items: List[str]) -> Dict[str, str]:
+        return {"brand": items[0].value}
 
     def honda_model(self, items: List[str]) -> Dict[str, str]:
         return {"model": items[0].value}

@@ -1,14 +1,14 @@
 start: (toyota|honda)
 
-toyota: (toyota_merk|toyota_model|color)+
-toyota_merk: TOYOTA_MERK+
+toyota: (toyota_brand|toyota_model|color)+
+toyota_brand: TOYOTA_MERK+
 TOYOTA_MERK: "toyota"
 toyota_model: AVANZA|INNOVA
 AVANZA: "avanza"
 INNOVA: "innova"
 
-honda: (honda_merk|honda_model|color)+
-honda_merk: HONDA_MERK+
+honda: (honda_brand|honda_model|color)+
+honda_brand: HONDA_MERK+
 HONDA_MERK: "honda"
 honda_model: JAZZ|BRIO
 JAZZ: "jazz"
