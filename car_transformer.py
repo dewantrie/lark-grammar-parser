@@ -8,20 +8,20 @@ class CarTransformer(Transformer):
     def toyota(self, items: List[Dict[str, str]]) -> Dict[str, Union[str, List[Dict[str, str]]]]:
         return {"data": items}
 
-    def toyota_brand(self, items: List[str]) -> Dict[str, str]:
-        return {"brand": items[0].value}
+    def TOYOTA_BRAND(self, items: List[str]) -> Dict[str, str]:
+        return {"brand": items.value}
 
-    def toyota_model(self, items: List[str]) -> Dict[str, str]:
-        return {"model": items[0].value}
+    def TOYOTA_MODEL(self, items: List[str]) -> Dict[str, str]:
+        return {"model": items.value}
 
     def honda(self, items: List[Dict[str, str]]) -> Dict[str, Union[str, List[Dict[str, str]]]]:
         return {"data": items}
 
-    def honda_brand(self, items: List[str]) -> Dict[str, str]:
-        return {"brand": items[0].value}
+    def HONDA_BRAND(self, items: List[str]) -> Dict[str, str]:
+        return {"brand": items.value}
 
-    def honda_model(self, items: List[str]) -> Dict[str, str]:
-        return {"model": items[0].value}
+    def HONDA_MODEL(self, items: List[str]) -> Dict[str, str]:
+        return {"model": items.value}
 
-    def color(self, items: List[str]) -> Dict[str, str]:
-        return {"color": items[0].value}
+    def COLOR(self, items: List[str]) -> Dict[str, str]:
+        return {"color": items.value}

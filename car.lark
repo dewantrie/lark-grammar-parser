@@ -1,20 +1,18 @@
 start: (toyota|honda)
 
-toyota: (toyota_brand|toyota_model|color)+
-toyota_brand: TOYOTA_MERK+
-TOYOTA_MERK: "toyota"
-toyota_model: AVANZA|INNOVA
+toyota: (TOYOTA_BRAND|TOYOTA_MODEL|COLOR)+
+TOYOTA_BRAND: "toyota"
+TOYOTA_MODEL: AVANZA|INNOVA
 AVANZA: "avanza"
 INNOVA: "innova"
 
-honda: (honda_brand|honda_model|color)+
-honda_brand: HONDA_MERK+
-HONDA_MERK: "honda"
-honda_model: JAZZ|BRIO
+honda: (HONDA_BRAND|HONDA_MODEL|COLOR)+
+HONDA_BRAND: "honda"
+HONDA_MODEL: JAZZ|BRIO
 JAZZ: "jazz"
 BRIO: "brio"
 
-color: PUTIH|MERAH
+COLOR: PUTIH|MERAH
 PUTIH: "putih"
 MERAH: "merah"
 
