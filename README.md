@@ -8,3 +8,6 @@ pip install lark-parser
 
 python app.py
 ```
+```
+{'data': [{'model': 'innova'}, {'color': 'red'}, {'brand': 'toyota'}, {'model': 'avanza'}, {'color': 'white'}]}
+```

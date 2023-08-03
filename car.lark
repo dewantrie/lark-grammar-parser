@@ -12,9 +12,9 @@ HONDA_MODEL: JAZZ|BRIO
 JAZZ: "jazz"
 BRIO: "brio"
 
-COLOR: PUTIH|MERAH
-PUTIH: "putih"
-MERAH: "merah"
+COLOR: WHITE|RED
+WHITE: "white"
+RED: "red"
 
 %import common.WS
 %ignore WS
