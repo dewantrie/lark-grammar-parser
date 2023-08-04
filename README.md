@@ -1,4 +1,4 @@
-# Sample Lark Parser
+# Tutorial Lark Parser
 
 Example usage of the Lark Parser
 
