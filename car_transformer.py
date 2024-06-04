@@ -13,6 +13,9 @@ class CarTransformer(Transformer):
 
     def TOYOTA_MODEL(self, items: List[str]) -> Dict[str, str]:
         return {"model": items.value}
+    
+    def TOYOTA_UNK(self, items: List[str]) -> Dict[str, str]:
+        return {"unknown": items.value}
 
     def honda(self, items: List[Dict[str, str]]) -> Dict[str, Union[str, List[Dict[str, str]]]]:
         return {"data": items}
@@ -22,6 +25,11 @@ class CarTransformer(Transformer):
 
     def HONDA_MODEL(self, items: List[str]) -> Dict[str, str]:
         return {"model": items.value}
+    
+    def HONDA_UNK(self, items: List[str]) -> Dict[str, str]:
+        return {"unknown": items.value}
 
     def COLOR(self, items: List[str]) -> Dict[str, str]:
         return {"color": items.value}
+    
+    
