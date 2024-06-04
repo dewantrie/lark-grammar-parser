@@ -1,6 +1,6 @@
 from entity_extraction import EntityExtraction
 
-sentence = "innova red toyota avanza white"
+sentence = "i have two cars: a red honda brio and a white honda jazz"
 extractor = EntityExtraction()
 result = extractor.doc(sentence)
 print(result)
