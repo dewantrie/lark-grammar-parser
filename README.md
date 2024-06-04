@@ -1,6 +1,6 @@
 # Tutorial Lark Parser
 
-Example usage of the Lark Parser
+Example usage of the [Lark Parser](https://github.com/lark-parser/lark)
 
 ## Guides
 From the project directory, run the following:
