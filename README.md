@@ -10,7 +10,10 @@ conda activate py310
 pip install lark-parser
 python app.py
 ```
-
+Input
+```
+i have two cars: a red honda brio and a white honda jazz
+```
 Output
 ```
 {'data': [{'unknown': 'i'}, {'unknown': 'have'}, {'unknown': 'two'}, {'unknown': 'cars:'}, {'unknown': 'a'}, {'color': 'red'}, {'brand': 'honda'}, {'model': 'brio'}, {'unknown': 'and'}, {'unknown': 'a'}, {'color': 'white'}, {'brand': 'honda'}, {'model': 'jazz'}]}
